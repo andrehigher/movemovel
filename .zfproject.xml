@@ -14,6 +14,21 @@
         <controllerFile controllerName="Cadastro">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="Linhas">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Hor&#xE1;rios">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Horarios">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Avaliacao">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Ajustes">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -33,6 +48,21 @@
             <viewScriptFile forActionName="error"/>
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Cadastro">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Linhas">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Hor&#xE1;rios">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Horarios">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Avaliacao">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Ajustes">
             <viewScriptFile forActionName="index"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>

@@ -17,30 +17,32 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="/js/ratchet.js"></script>
+    <script src="/js/push.js"></script>
   </head>
   <body>
 
-
-	<?php echo $this->layout()->content; ?>
+  	<div class="content">
+		<?php echo $this->layout()->content; ?>
+	</div>
 
 	<nav class="bar bar-tab">
-	  <a class="tab-item active" href="#">
+	  <a class="tab-item active" href="/">
 	    <span class="icon icon-home"></span>
 	    <span class="tab-label">Início</span>
 	  </a>
-	  <a class="tab-item" href="#">
+	  <a class="tab-item" href="/linhas">
 	    <span class="icon icon-search"></span>
 	    <span class="tab-label">Linhas</span>
 	  </a>
-	  <a class="tab-item" href="#">
+	  <a class="tab-item" href="/horarios">
 	    <span class="icon icon-info"></span>
 	    <span class="tab-label">Horários</span>
 	  </a>
-	  <a class="tab-item" href="#">
+	  <a class="tab-item" href="/avaliacao">
 	    <span class="icon icon-star-filled"></span>
 	    <span class="tab-label">Avaliar</span>
 	  </a>
-	  <a class="tab-item" href="#">
+	  <a class="tab-item" href="/ajustes">
 	    <span class="icon icon-gear"></span>
 	    <span class="tab-label">Ajustes</span>
 	  </a>
