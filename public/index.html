@@ -19,38 +19,36 @@
   </head>
   <body>
 
-    <!-- Make sure all your bars are the first things in your <body> -->
-    <header class="bar bar-nav">
-      <h1 class="title">MOVE Metropolitano</h1>
-    </header>
-
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <p class="content-padded">Este é um projeto da <b>Secretaria de Transportes e Obras Públicas de Minas Gerais</b> para que os usuários do MOVE Metropolitano tenham acesso as linhas, horários e possam avaliar o sistema.</p>
-      <div class="card">
-        <ul class="table-view">
-          <li class="table-view-cell">
-            <a class="push-right" href="linhas.php" data-transition="slide-in">
-              <strong>Linhas</strong>
-            </a>
-          </li>
-          <li class="table-view-cell">
-            <a class="push-right" href="horarios.php" data-transition="slide-in">
-              <strong>Horários</strong>
-            </a>
-          </li>
-          <li class="table-view-cell">
-            <a class="push-right" href="avaliacao.php" data-transition="slide-in">
-              <strong>Avaliação</strong>
-            </a>
-          </li>
-          <li class="table-view-cell">
-            <a class="push-right" href="funciona.php" data-transition="slide-in">
-              <strong>Como funciona</strong>
-            </a>
-          </li>
-        </ul>
+      <br><br>
+      <div>
+        <img src="img/move.jpg">
+        <p class="content-padded">Este é um projeto da <b>Secretaria de Transportes e Obras Públicas de Minas Gerais</b> para que os usuários do MOVE Metropolitano tenham acesso as linhas, horários e possam avaliar o sistema.</p>
       </div>
+
+      <nav class="bar bar-tab">
+        <a class="tab-item active" href="#">
+          <span class="icon icon-home"></span>
+          <span class="tab-label">Home</span>
+        </a>
+        <a class="tab-item" href="linhas.php" data-transition="slide-in">
+          <span class="icon icon-person"></span>
+          <span class="tab-label">Linhas</span>
+        </a>
+        <a class="tab-item" href="horarios.php" data-transition="slide-in">
+          <span class="icon icon-star-filled"></span>
+          <span class="tab-label">Horários</span>
+        </a>
+        <a class="tab-item" href="avaliacao.php" data-transition="slide-in">
+          <span class="icon icon-search"></span>
+          <span class="tab-label">Avaliação</span>
+        </a>
+        <a class="tab-item" href="funciona.php" data-transition="slide-in">
+          <span class="icon icon-gear"></span>
+          <span class="tab-label">Ajuda</span>
+        </a>
+      </nav>
     </div>
 
   </body>
