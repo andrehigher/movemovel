@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MoveMóvel - SETOP</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="../ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="../ratchet.js"></script>
+  </head>
+  <body>
+
+    <header class="bar bar-nav">
+      <a class="icon icon-left-nav pull-left" href='../linhas.php' data-transition="slide-off"></a>
+      <h1 class="title">402H</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <div class="segmented-control">
+        <a class="control-item active" href="#item1mobile">
+          Informações
+        </a>
+        <a class="control-item" href="#item3mobile">
+          Itinerário
+        </a>
+        <a class="control-item" href="#item2mobile">
+          Horários
+        </a>
+      </div>
+      <div class="card">
+        <span id="item1mobile" class="control-content active">
+          <ul class="table-view">
+            <li class="table-view-cell">Extensão</li>
+            <li class="table-view-divider">30.020 metros</li>
+            <li class="table-view-cell table-view-cell">Ponto de saída</li>
+            <li class="table-view-divider">Estação São Gabriel</li>
+            <li class="table-view-cell table-view-cell">Ponto de chegada</li>
+            <li class="table-view-divider">Estação São Gabriel</li>
+          </ul>
+        </span>
+        <span id="item2mobile" class="control-content">
+          <ul class="table-view">
+            <ul class="table-view">
+              <li class="table-view-cell">
+                <a class="navigate-right" href='402h/util.php' data-transition="slide-in">
+                  Dia útil
+                </a>
+              </li>
+              <li class="table-view-cell">
+                <a class="navigate-right" href='402h/sabado.php' data-transition="slide-in">
+                  Sábado
+                </a>
+              </li>
+              <li class="table-view-cell">
+                <a class="navigate-right" href='402h/domingo.php' data-transition="slide-in">
+                  Domingo/Feriado
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </span>
+        <span id="item3mobile" class="control-content">
+           <ul class="table-view"><li class="table-view-cell">(TERMINAL SÃO GABRIEL)</li><li class="table-view-cell"> COMPLEXO ESTACAO SAO GABRIEL</li><li class="table-view-cell"> AV. NOVECENTO E 29</li><li class="table-view-cell"> ROTATORIA JACUI</li><li class="table-view-cell"> AV. NOVECENTO E 29</li><li class="table-view-cell"> ACESSO A AV. CRISTIANO MACHADO</li><li class="table-view-cell"> AV. CRISTIANO MACHADO</li><li class="table-view-cell"> VDT. LESTE</li><li class="table-view-cell"> AV. DO CONTORNO</li><li class="table-view-cell"> AV DOS ANDRADAS</li><li class="table-view-cell"> RUA CEARÁ</li><li class="table-view-cell"> AV. PROFESSOR ALFREDO BALENA</li><li class="table-view-cell"> AV. BERNARDO MONTEIRO</li><li class="table-view-cell"> AV. FRANCISCO SALES</li><li class="table-view-cell"> AV. DOS ANDRADAS</li><li class="table-view-cell"> AV. DO CONTORNO</li><li class="table-view-cell"> VDT LESTE</li><li class="table-view-cell"> AV. CRISTIANO MACHADO</li><li class="table-view-cell"> COMPLEXO ESTACAO SAO GABRIEL</li><li class="table-view-cell"> (TERMINAL SÃO GABRIEL)</li>
+           </ul>
+      </div>
+    </div>
+
+  </body>
+</html>

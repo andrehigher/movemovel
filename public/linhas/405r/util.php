@@ -12,31 +12,33 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <!-- Include the compiled Ratchet CSS -->
-    <link href="ratchet.css" rel="stylesheet">
+    <link href="../../ratchet.css" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
-    <script src="ratchet.js"></script>
+    <script src="../../ratchet.js"></script>
   </head>
   <body>
 
     <header class="bar bar-nav">
-      <a class="icon icon-left-nav pull-left" href='index.html' data-transition="slide-off"></a>
-      <h1 class="title">Linhas</h1>
+      <a class="icon icon-left-nav pull-left" href='../405r.html' data-transition="slide-off"></a>
+      <h1 class="title">405R - Dia útil</h1>
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
       <ul class="table-view">
-        <li class="table-view-cell">
-          <a class="navigate-right" href="linhas/405r.html" data-transition="slide-in">
-            405R - São Gabriel/Cid. Industrial
-          </a>
-        </li>
-        <li class="table-view-cell">
-          <a class="navigate-right" href="linhas/402h.html" data-transition="slide-in">
-            402H - São Gabriel/Hospitais
-          </a>
-        </li>
+        <li class="table-view-cell">05:20</li>
+        <li class="table-view-cell">05:50</li>
+        <li class="table-view-cell">06:20</li>
+        <li class="table-view-cell">07:00</li>
+        <li class="table-view-cell">07:50</li>
+        <li class="table-view-cell">08:40</li>
+        <li class="table-view-cell">14:20</li>
+        <li class="table-view-cell">15:10</li>
+        <li class="table-view-cell">16:00</li>
+        <li class="table-view-cell">16:50</li>
+        <li class="table-view-cell">17:40</li>
+        <li class="table-view-cell">18:30</li>
       </ul>
     </div>
 
