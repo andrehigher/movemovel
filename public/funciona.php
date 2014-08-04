@@ -26,7 +26,10 @@
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      funciona
+      <br><br>
+      <div style="text-align: center;">
+        <img src="img/mapa-adao-pereira-move-bh-brt.jpg">
+      </div>
     </div>
 
   </body>
