@@ -27,12 +27,9 @@
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
      <form>
-      <input type="text" placeholder="Nome completo">
-      <input type="email" placeholder="E-mail">
-      <input type="number" min="12" max="100" placeholder="Idade">
-      <textarea rows="5" placeholder="Sua avaliação aqui..."></textarea>
-      <button class="btn btn-positive btn-block">Enviar</button>
-    </form>
+        Limpeza: <input type="range" min="1" max="10"><br>
+        Segurança: <input type="range" min="1" max="10">
+     </form>
     </div>
 
   </body>

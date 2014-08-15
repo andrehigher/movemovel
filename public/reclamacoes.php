@@ -12,25 +12,26 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <!-- Include the compiled Ratchet CSS -->
-    <link href="../../ratchet.css" rel="stylesheet">
+    <link href="ratchet.css" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
-    <script src="../../ratchet.js"></script>
+    <script src="ratchet.js"></script>
   </head>
   <body>
 
     <header class="bar bar-nav">
-      <a class="icon icon-left-nav pull-left" href='../405r.html' data-transition="slide-off"></a>
-      <h1 class="title">405R - Sábado</h1>
+      <a class="icon icon-left-nav pull-left" href='index.html' data-transition="slide-off"></a>
+      <h1 class="title">Reclamações</h1>
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <ul class="table-view">
-        <li class="table-view-cell">05:30</li>
-        <li class="table-view-cell">06:30</li>
-        <li class="table-view-cell">07:30</li>
-      </ul>
+     <form>
+      <input type="text" placeholder="Nome completo">
+      <input type="email" placeholder="E-mail">
+      <textarea rows="5" placeholder="Sua reclamação aqui..."></textarea>
+      <button class="btn btn-positive btn-block">Enviar</button>
+     </form>
     </div>
 
   </body>
