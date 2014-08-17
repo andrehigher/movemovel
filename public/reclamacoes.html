@@ -19,37 +19,22 @@
   </head>
   <body>
 
+    <header class="bar bar-nav">
+      <a class="icon icon-left-nav pull-left" href='index.html' data-transition="slide-off"></a>
+      <h1 class="title">Reclamações</h1>
+    </header>
+
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <br><br>
-      <div style="text-align: center;">
-        <br><img src="/img/move.jpg"><br><img src="/img/setop.jpg"><hr><br>
-        <div>
-        <a class="btn" style="height: 50px; width: 100px;" href="terminais.html" data-transition="slide-in"><br>
-          <span class="icon icon-list"></span>
-          Linhas
-        </a>
-        <a class="btn" style="height: 50px; width: 100px;" href="avaliacao.html" data-transition="slide-in"><br>
-          <span class="icon icon-star-filled"></span>
-          Avaliação
-        </a>
-        </div><br>
-        <div>
-        <a class="btn" style="height: 50px; width: 100px;" href="reclamacoes.html" data-transition="slide-in"><br>
-          <span class="icon icon-person"></span>
-          Reclamações
-        </a>
-        <a class="btn" style="height: 50px; width: 100px;" href="/funciona.html" data-transition="slide-in"><br>
-          <span class="icon icon-info"></span>
-          Ajuda
-        </a>
-        </div>
-      </div>
-      
-    </div>
+     <form action="send_complaint.php" method="post">
+      <input type="text" name="name" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea rows="5" name="complaint" placeholder="Sua reclamação aqui..."></textarea>
+      <button class="btn btn-positive btn-block">Enviar</button>
+     </form>
 
       <nav class="bar bar-tab">
-        <a class="tab-item active" href="/" data-transition="slide-in">
+        <a class="tab-item" href="/" data-transition="slide-in">
           <span class="icon icon-home"></span>
           <span class="tab-label">Home</span>
         </a>
@@ -61,7 +46,7 @@
           <span class="icon icon-star-filled"></span>
           <span class="tab-label">Avaliação</span>
         </a>
-        <a class="tab-item" href="/reclamacoes.html" data-transition="slide-in">
+        <a class="tab-item active" href="/reclamacoes.html" data-transition="slide-in">
           <span class="icon icon-person"></span>
           <span class="tab-label">Reclamações</span>
         </a>
@@ -70,6 +55,7 @@
           <span class="tab-label">Ajuda</span>
         </a>
       </nav>
+    </div>
 
   </body>
 </html>
